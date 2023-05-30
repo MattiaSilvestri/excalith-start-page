@@ -106,14 +106,14 @@
 	"sections": {
 		"list": [
 			{
-				"title": "General",
+				"title": "Favourites",
 				"color": "green",
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "YouTube",
+						"url": "https://www.youtube.com",
+						"icon": "mdi:youtube"
 					},
 					{
 						"name": "Keybase",
