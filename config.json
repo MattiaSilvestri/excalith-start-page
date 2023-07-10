@@ -3,7 +3,7 @@
 	"theme": {
 		"backgroundColor": "#1e1e2e",
 		"windowColor": "#181825",
-		"glowColor": "#11111b",
+		"glowColor": "#11111b99",
 		"white": "#bac2de",
 		"gray": "#97989d",
 		"black": "#45475A",
@@ -17,7 +17,7 @@
 		"orange": "#fbb185"
 	},
 	"wallpaper": {
-		"url": "",
+		"url": "https://e.pcloud.link/publink/show?code=XZOf9uZ4F586JaVvym8TWhM3zqlM8wSDlMk",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": true
@@ -106,29 +106,34 @@
 	"sections": {
 		"list": [
 			{
-				"title": "Favourites",
+				"title": "Most used",
 				"color": "green",
 				"align": "left",
 				"links": [
+					{
+						"name": "Google",
+						"url": "https://www.google.com/",
+						"icon": "mdi:google"
+					},
 					{
 						"name": "YouTube",
 						"url": "https://www.youtube.com",
 						"icon": "mdi:youtube"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Netflix",
+						"url": "https://www.netflix.com/browse",
+						"icon": "mdi:netflix"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "Banca",
+						"url": "https://www.intesasanpaolo.com/",
+						"icon": "mdi:bank"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Translate",
+						"url": "https://translate.google.com",
+						"icon": "mdi:translate"
 					}
 				]
 			},
@@ -143,9 +148,9 @@
 						"icon": "mdi:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "LeetCode",
+						"url": "https://leetcode.com",
+						"icon": "simple-icons:leetcode"
 					},
 					{
 						"name": "Dev.to",
@@ -156,6 +161,16 @@
 						"name": "Stack Overflow",
 						"url": "https://stackoverflow.com/",
 						"icon": "mdi:stack-overflow"
+					},
+					{
+						"name": "Hacker News",
+						"url": "https://news.ycombinator.com",
+						"icon": "simple-icons:ycombinator"
+					},
+					{
+						"name": "Daily Dev",
+						"url": "https://app.daily.dev/my-feed",
+						"icon": "mdi:link"
 					}
 				]
 			},
@@ -183,18 +198,43 @@
 						"name": "Polywork",
 						"url": "https://polywork.com",
 						"icon": "simple-icons:polywork"
+					},
+					{
+						"name": "lemmy.world",
+						"url": "https://lemmy.world",
+						"icon": "simple-icons:lemmy"
+					},
+					{
+						"name": "kbin.social",
+						"url": "https://kbin.social/",
+						"icon": "mdi:link"
+					},
+					{
+						"name": "LinkedIn",
+						"url": "https://www.linkedin.com/feed/",
+						"icon": "mdi:linkedin"
+					},
+					{
+						"name": "Facebook",
+						"url": "https://www.facebook.com",
+						"icon": "mdi:facebook"
+					},
+					{
+						"name": "Obsidian forum",
+						"url": "https://forum.obsidian.md/",
+						"icon": "simple-icons:obsidian"
 					}
 				]
 			},
 			{
-				"title": "Gaming",
+				"title": "Misc",
 				"color": "cyan",
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "Windy",
+						"url": "https://www.windy.com",
+						"icon": "tabler:brand-windy"
 					},
 					{
 						"name": "IGN",
